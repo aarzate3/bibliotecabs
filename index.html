@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BS IBBY México — Biblioteca infantil y juvenil</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo">IBBY</div>
+      <div>
+        <h1>BS IBBY México</h1>
+        <p class="tag">Biblioteca especializada en literatura infantil y juvenil</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#ubicacion" class="visit">Visítanos</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <h2>La biblioteca más importante de México<br/><span class="accent">para lectores jóvenes</span></h2>
+        <p class="lead">Descubre libros, actividades y eventos pensados para niños y jóvenes. ¡Ven a explorar y participar!</p>
+        <div class="cta">
+          <a href="#catalogo" class="btn primary">Explorar catálogo</a>
+          <a href="#eventos" class="btn">Próximos eventos</a>
+        </div>
+        <div class="info-cards">
+          <div class="card"><strong>Horario</strong><div>10:00 — 16:45 (Lun - Dom)</div></div>
+          <div class="card"><strong>Dirección</strong><div>Goya #54, Col. Insurgentes Mixcoac, CDMX</div></div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="image-placeholder">Espacio para imagen</div>
+      </div>
+    </section>
+
+    <section id="catalogo" class="panel">
+      <h3>Catálogo</h3>
+      <p>Accede al catálogo completo de la biblioteca:</p>
+      <a class="btn gradient" href="https://bibliotecabs.ibbymexico.org.mx/" target="_blank" rel="noreferrer">Ir al catálogo</a>
+      <div class="iframe-wrap" title="Catálogo embebido">
+        <iframe src="https://bibliotecabs.ibbymexico.org.mx/" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <section id="eventos" class="panel">
+      <h3>Noticias y eventos</h3>
+      <p>Actividad reciente y eventos pensados para niños y jóvenes.</p>
+      <div class="grid-3">
+        <article class="event-card">
+          <h4>Taller: Crea tu cómic</h4>
+          <div class="meta">Sábado 22 de noviembre • 11:00 — 13:00</div>
+          <p>Taller práctico para jóvenes entre 12 y 17 años. Plazas limitadas.</p>
+          <a href="#contacto" class="link">Inscribirse</a>
+        </article>
+        <article class="event-card">
+          <h4>Club de lectura juvenil</h4>
+          <div class="meta">Jueves • 16:00 — 17:30</div>
+          <p>Encuentros semanales para comentar lecturas y descubrir nuevos autores.</p>
+          <a href="#contacto" class="link">Contacto</a>
+        </article>
+        <article class="event-card">
+          <h4>Presentación de libro</h4>
+          <div class="meta">Viernes 12 de diciembre • 18:00</div>
+          <p>Presentación y lectura con autor/a invitado/a (apta para público familiar).</p>
+          <a href="#contacto" class="link">Más info</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="panel">
+      <h3>Contacto</h3>
+      <p>Escríbenos para inscripciones, donaciones o consultas. También puedes visitarnos en persona.</p>
+      <div class="grid-2">
+        <form id="contactForm" class="form">
+          <label>Nombre<input type="text" id="nombre" placeholder="Tu nombre" required></label>
+          <label>Correo<input type="email" id="email" placeholder="tucorreo@ejemplo.com" required></label>
+          <label>Mensaje<textarea id="mensaje" placeholder="Escribe tu mensaje..." required></textarea></label>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Enviar mensaje</button>
+            <div id="feedback" class="feedback" aria-live="polite"></div>
+          </div>
+        </form>
+
+        <div class="side-info">
+          <div class="info-block">
+            <h4>Horario</h4>
+            <p>10:00 — 16:45 (Lunes a Domingo)</p>
+          </div>
+          <div class="info-block">
+            <h4>Ubicación</h4>
+            <p>Goya #54, Col. Insurgentes Mixcoac, CDMX</p>
+            <a class="link" href="https://www.google.com/maps/search/?api=1&query=Goya+54+Insurgentes+Mixcoac+CDMX" target="_blank" rel="noreferrer">Ver en mapa</a>
+          </div>
+          <div class="info-block">
+            <h4>Redes sociales</h4>
+            <div class="socials">
+              <a href="#" class="social">Twitter</a>
+              <a href="#" class="social">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ubicacion" class="panel">
+      <h3>Visítanos</h3>
+      <p>Goya #54, Col. Insurgentes Mixcoac, CDMX</p>
+      <div class="map-wrap">
+        <iframe title="mapa IBBY" src="https://www.google.com/maps?q=Goya+54+Insurgentes+Mixcoac+CDMX&output=embed" loading="lazy"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>© 2025 BS IBBY México — Biblioteca de literatura infantil y juvenil</div>
+    <div>Horario: 10:00 — 16:45 (Lun - Dom) • Goya #54, Col. Insurgentes Mixcoac, CDMX</div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
